@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio-using-react",
+  "version": "1.0.0",
+  "description": "![Languages](https://img.shields.io/github/languages/top/rucatues/Personal-Portolio-using-React) ![Code-Size](https://img.shields.io/github/languages/code-size/rucatues/Personal-Portolio-using-React) ![Last-Commit](https://img.shields.io/github/last-commit/rucatues/Personal-Portolio-using-React)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rucatues/Personal-Portfolio-using-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rucatues/Personal-Portfolio-using-React/issues"
+  },
+  "homepage": "https://github.com/Rucatues/Personal-Portfolio-using-React#readme"
+}
