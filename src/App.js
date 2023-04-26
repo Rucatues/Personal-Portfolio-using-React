@@ -2,6 +2,7 @@ import { useState } from 'react';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
 import Header from './components/Header';
@@ -19,7 +20,10 @@ function App() {
       return <Contact />
     } else if (currentPage === 'Portfolio') {
       return <Portfolio />
+    } else if (currentPage === 'Resume') {
+      return <Resume />
     }
+
   }
 
   return (
