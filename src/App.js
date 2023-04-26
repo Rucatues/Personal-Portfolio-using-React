@@ -17,15 +17,16 @@ function App() {
       return <About />
     } else if (currentPage === 'Contact') {
       return <Contact />
-    } else if (currentPage === 'Porfolio') {
+    } else if (currentPage === 'Portfolio') {
       return <Portfolio />
     }
   }
 
   return (
-    <div>
+    <div className="bg-light">
       <Navbar setCurrentPage={setCurrentPage} currentPage={currentPage} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
