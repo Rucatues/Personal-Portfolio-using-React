@@ -13,7 +13,13 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
   function renderPage() {
-
+    if (currentPage === 'About') {
+      return <About />
+    } else if (currentPage === 'Contact') {
+      return <Contact />
+    } else if (currentPage === 'Porfolio') {
+      return <Portfolio />
+    }
   }
 
   return (
