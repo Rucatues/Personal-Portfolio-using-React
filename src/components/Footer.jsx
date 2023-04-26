@@ -1,8 +1,12 @@
 import React from 'react'
+import { BsGithub } from 'react-icons/bs';
+
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <div>
+            <BsGithub />
+        </div>
     )
 }
 
