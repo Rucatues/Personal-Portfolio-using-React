@@ -32,3 +32,20 @@ color: white  }
     margin: 0px 50px 0px 450px; 
     text-align: right; 
   }
+
+  /* Contact */
+
+  .contact-page{
+    background-image: url('/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/background.png');
+    height: 100vh; 
+  }
+
+  .form-row{
+    padding-top: 100px; 
+    width: 500px; 
+  }
+
+  .form-group{
+    padding: 10px; 
+  }
+
