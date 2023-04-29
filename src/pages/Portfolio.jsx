@@ -3,35 +3,70 @@ import React from 'react'
 const Portfolio = () => {
     return (
         <div>
-            {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                <ol classname="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-                    <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-                    <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-                </ol>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src="..." alt="First slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Second slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Third slide" />
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true" />
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true" />
-                    <span className="sr-only">Next</span>
-                </a>
-            </div> */}
-
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    )
+
+
+    );
 }
 
 export default Portfolio
