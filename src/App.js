@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div className="bg-light">
+    <div>
       <Navbar setCurrentPage={setCurrentPage} currentPage={currentPage} />
       {renderPage()}
       <Footer />

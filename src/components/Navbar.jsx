@@ -4,7 +4,7 @@ const Navbar = ({ setCurrentPage, currentPage }) => {
     return (
         <div>
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <nav className="navbar navbar-expand-lg sticky-top">
                 <a className="navbar-brand" href="#">Kelly</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />

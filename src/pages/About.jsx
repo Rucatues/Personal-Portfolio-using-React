@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-            <div className="col-md-6">
+            <div className="about-page">
                 <div className="hero">
                     <h1 className="hero-inner">
                         Hi, my name is <span className="name">Kelly</span> and I am a web
@@ -19,7 +19,7 @@ const About = () => {
                 </p>
             </div>
 
-        </div>
+        </div >
     )
 }
 
