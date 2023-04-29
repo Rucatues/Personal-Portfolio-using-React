@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-            <div className="about-page">
+            <div className="about-page background-image">
                 <div className="hero">
                     <h1 className="hero-inner">
                         Hi, my name is <span className="name">Kelly</span> and I am a web

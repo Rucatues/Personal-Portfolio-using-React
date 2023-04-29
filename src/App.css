@@ -1,6 +1,8 @@
+/* Background image */
+
 /* About */
 
-.about-page{
+.background-image{
     background-image: url('/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/background.png'); 
     height: 100vh; 
 }
@@ -35,11 +37,6 @@ color: white  }
 
   /* Contact */
 
-  .contact-page{
-    background-image: url('/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/background.png');
-    height: 100vh; 
-  }
-
   .form-row{
     padding-top: 100px; 
     width: 500px; 
@@ -49,3 +46,9 @@ color: white  }
     padding: 10px; 
   }
 
+
+  /* Resume */
+
+  .resume{
+    padding-top: 50px; 
+  }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="contact-page">
+        <div className="background-image">
             <div className="contact-container d-flex flex-column align-items-center justify-content-center">
                 <form className="form-row">
                     <div className="form-group contact-form">
