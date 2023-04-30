@@ -13,8 +13,8 @@
     font-size: 30px !important; 
 }
 
-.km .navbar-link:hover{
-    cursor: pointer; 
+a:hover{
+    cursor: grab; 
 }
 /* About */
 
