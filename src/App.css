@@ -16,6 +16,10 @@
 a:hover{
     cursor: grab; 
 }
+
+.active{
+    text-decoration: underline; 
+}
 /* About */
 
 .hero {
