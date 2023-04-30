@@ -1,11 +1,22 @@
 /* Background image */
 
-/* About */
-
 .background-image{
     background-image: url('/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/background.png'); 
     height: 100vh; 
 }
+
+/* Navbar */
+
+.km{
+    font-family:Arial, Helvetica, sans-serif; 
+    padding-left: 15px; 
+    font-size: 30px !important; 
+}
+
+.km .navbar-link:hover{
+    cursor: pointer; 
+}
+/* About */
 
 .hero {
     width: 100%;
@@ -31,7 +42,7 @@ color: white  }
   }
 
   .about{
-    margin: 0px 50px 0px 450px; 
+    margin-top: 200px; 
     text-align: right; 
   }
 
@@ -39,7 +50,7 @@ color: white  }
 
   .form-row{
     padding-top: 100px; 
-    width: 500px; 
+    width: 75%; 
   }
 
   .form-group{
@@ -50,5 +61,21 @@ color: white  }
   /* Resume */
 
   .resume{
-    padding-top: 50px; 
+    width: 100vw; 
+    height: 100vh; 
   }
+
+
+  /* Media Queries for screens larger than mobile*/
+
+  @media screen and (min-width: 768px) { 
+    .about{
+        margin: 0px 50px 0px 450px; 
+    }
+    .form-row{
+        width: 30%; 
+    }
+    .resume{
+        padding-top: 50px; 
+    }
+  };

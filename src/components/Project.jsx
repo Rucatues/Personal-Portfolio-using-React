@@ -1,5 +1,5 @@
 import React from 'react'
-import weatherScreenshot from '/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/ScreencaptureWeather.png'
+// import weatherScreenshot from '/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/ScreencaptureWeather.png'
 
 const Project = () => {
     return (
