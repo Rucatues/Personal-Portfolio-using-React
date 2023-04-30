@@ -6,7 +6,7 @@ import { BsLinkedin } from 'react-icons/bs';
 const Footer = () => {
     return (
         <div className="container fixed-bottom">
-            <footer className="d-flex flex-wrap justify-content-end py-3 my-4 border-top">
+            <footer className="d-flex flex-wrap justify-content-end py-3 my-4">
                 <div className="d-flex">
                     <ul className="nav d-flex">
                         <li className="ms-3">

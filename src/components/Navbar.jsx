@@ -5,18 +5,33 @@ const Navbar = ({ setCurrentPage, currentPage }) => {
     function aboutPage() {
         setCurrentPage('About');
         document.getElementById("about").classList.add('active');
+        document.getElementById("contact").classList.remove('active');
+        document.getElementById("portfolio").classList.remove('active');
+        document.getElementById("resume").classList.remove('active');
     };
 
     function contactPage() {
         setCurrentPage('Contact');
+        document.getElementById("contact").classList.add('active');
+        document.getElementById("about").classList.remove('active');
+        document.getElementById("portfolio").classList.remove('active');
+        document.getElementById("resume").classList.remove('active');
     };
 
     function portfolioPage() {
-        setCurrentPage('Portfolio')
+        setCurrentPage('Portfolio');
+        document.getElementById("portfolio").classList.add('active');
+        document.getElementById("about").classList.remove('active');
+        document.getElementById("contact").classList.remove('active');
+        document.getElementById("resume").classList.remove('active');
     };
 
     function resumePage() {
-        setCurrentPage('Resume')
+        setCurrentPage('Resume');
+        document.getElementById("resume").classList.add('active');
+        document.getElementById("about").classList.remove('active');
+        document.getElementById("contact").classList.remove('active');
+        document.getElementById("portfolio").classList.remove('active');
     }
 
     return (
@@ -30,16 +45,16 @@ const Navbar = ({ setCurrentPage, currentPage }) => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a class="nav-link" id="about" onClick={aboutPage}>About</a>
+                            <a class="nav-link" id="about" onClick={aboutPage} activeStyle={{ color: "blue" }}>About</a>
                         </li>
                         <li className="nav-item">
-                            <a class="nav-link" onClick={contactPage}>Contact</a>
+                            <a class="nav-link" id="contact" onClick={contactPage}>Contact</a>
                         </li>
                         <li className="nav-item">
-                            <a class="nav-link" onClick={portfolioPage}>Portfolio</a>
+                            <a class="nav-link" id="portfolio" onClick={portfolioPage}>Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a class="nav-link" onClick={resumePage}>Resume</a>
+                            <a class="nav-link" id="resume" onClick={resumePage}>Resume</a>
                         </li>
                     </ul>
                 </div>

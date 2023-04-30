@@ -1,14 +1,16 @@
 import React from 'react'
-import Project from '../components/Project';
-import weatherScreenshot from '/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/ScreencaptureWeather.png'
+import ProjectCard from '../components/Project';
+import Projects from '../utils';
 
-const Portfolio = () => {
-    return (
-        <div className="card-deck">
-            <Project />
+const Portfolio = ({ projects }) => {
 
-        </div>
-    );
+    const renderedList = projects.map((project) => {
+        return (
+            <ProjectCard project={project} />
+        )
+    });
+
+    // return <div className="ui relaxed divided list">{renderedList}</div>;
 }
 
 export default Portfolio

@@ -43,3 +43,6 @@ export const Projects = [
         github: "https://github.com/Rucatues/Team-Roster"
     }
 ];
+
+
+export default Projects; 
