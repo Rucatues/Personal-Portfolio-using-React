@@ -3,7 +3,7 @@ import Projects from '../utils';
 
 // ProjectCard accepts a single project as a prop
 // This component is solely responsible for displaying the specific information for a given project
-const ProjectCard = ({ project }) => {
+const ProjectCard = () => {
 
     return (
         <div>
@@ -19,9 +19,6 @@ const ProjectCard = ({ project }) => {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }

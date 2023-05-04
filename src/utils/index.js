@@ -17,7 +17,7 @@ export const Projects = [
     {
         name: "Work Planner",
         description: "This is a simple work planner that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
-        image: "/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/ScreenscaptureWorkDay.png",
+        image: "/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/ScreencaptureWorkDay.png",
         app: "https://rucatues.github.io/Work-Planner/",
         github: "https://github.com/Rucatues/Work-Planner"
     },

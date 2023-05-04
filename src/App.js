@@ -6,7 +6,6 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
-import Header from './components/Header';
 import Footer from './components/Footer';
 
 
