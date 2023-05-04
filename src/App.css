@@ -1,7 +1,7 @@
 /* Background image */
 
 .background-image{
-    background-image: url('/Users/kellymclain/bootcamp/Homework/Personal-Portfolio-using-React/src/components/images/background.png'); 
+    background-image: url('components/images/background.png'); 
     height: 100vh; 
 }
 
