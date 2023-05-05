@@ -1,16 +1,14 @@
 import React from 'react'
 import ProjectCard from '../components/Project';
-import Projects from '../utils';
 
-const Portfolio = ({ projects }) => {
 
-    const renderedList = projects.map((project) => {
-        return (
-            <ProjectCard project={project} />
-        )
-    });
+const Portfolio = () => {
 
-    // return <div className="ui relaxed divided list">{renderedList}</div>;
+    return (
+        <div className="portfolio-wrapper">
+            {ProjectCard}
+        </div>);
 }
+
 
 export default Portfolio
