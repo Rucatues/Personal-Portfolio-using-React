@@ -10,7 +10,7 @@ const ProjectCard = projectArray.map((project) => {
                 <img className="card-img" src={project.image} alt="{project.name}" />
                 <div className="card-body">
                     <h5 className="card-title">{project.name}</h5>
-                    <p className="card-text">{project.description}</p>
+                    <p className="card-text">{project.description}<a href={project.app}>Link to App</a>/<a href={project.github}>Github</a></p>
                 </div>
                 <div className="card-footer">
                 </div>
