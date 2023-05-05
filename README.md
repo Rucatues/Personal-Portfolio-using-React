@@ -1,8 +1,8 @@
 # Personal-Portfolio-using-React
 
-![Languages](https://img.shields.io/github/languages/top/rucatues/Personal-Portolio-using-React)
-![Code-Size](https://img.shields.io/github/languages/code-size/rucatues/Personal-Portolio-using-React)
-![Last-Commit](https://img.shields.io/github/last-commit/rucatues/Personal-Portolio-using-React)
+![Languages](https://img.shields.io/github/languages/top/rucatues/Personal-Portfolio-using-React)
+![Code-Size](https://img.shields.io/github/languages/code-size/rucatues/Personal-Portfolio-using-React)
+![Last-Commit](https://img.shields.io/github/last-commit/rucatues/Personal-Portfolio-using-React)
 
 
 ## Table of Contents
@@ -14,6 +14,7 @@
 * [Technologies Used](#technologies-used)
 * [License](#license)
 * [Credits](#credits)
+* [Future Developments](#future-developments)
  
 
 ## Description  
@@ -22,7 +23,7 @@ This is a professional portfolio for my previous projects using React, Express, 
 
 ## Screenshot  
 
-![Screenshot](pastelinkhere)
+![Screenshot](src/components/images/ScreancaptureReadMe.png)
 
 
 ## Installation
@@ -35,11 +36,13 @@ Type `npm i` in the command line to install necessary dependencies.
 
 Run the following command in the root directory of your project to start the server:
   
-`node server.js`
+`npm start`
 
 ## Technologies Used    
 
 * React
+* React-dom
+* React-icons
 * Express
 * Dotenv
 * Bootstrap for CSS framework
@@ -52,3 +55,7 @@ MIT License
 ## Credits
 
 Guidance and support for this project was given by a UT bootcamp tutor and CodeAcademy's React course. 
+
+## Future Developments
+
+Plans in the future for contact form to be fully functioning. 
