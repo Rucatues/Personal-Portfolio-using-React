@@ -1,8 +1,10 @@
 /* Background image */
 
-.background-image{
-    background-image: url('components/images/background.png'); 
-    height: 100vh; 
+.background-image {
+  background-image: url('components/images/background.png'); 
+  height: 100vh;
+  min-height: 2000px;
+  text-decoration: solid;
 }
 
 /* Navbar */
@@ -18,7 +20,7 @@ a:hover{
 }
 
 .active{
-    text-decoration: underline; 
+    text-decoration: solid; 
 }
 /* About */
 
@@ -61,6 +63,35 @@ color: white  }
     padding: 10px; 
   }
 
+  /* Portfolio */
+
+  .portfolio-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-deck {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #95B3D69C;
+  border: none;
+  margin: 10px;
+  min-height: 400px;
+  padding: 20px;
+}
+
+.card-footer {
+  background: none;
+  border: none;
+}
 
   /* Resume */
 
